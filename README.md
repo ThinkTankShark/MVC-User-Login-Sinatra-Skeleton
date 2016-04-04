@@ -1,4 +1,4 @@
-> **Note**: This branch (master) contains a skeleton without any app code, perfect for creating a _new_ application or challenge. If you're looking for an example app built with this skeleton, take a look at the [example](/../..//tree/example) branch which includes basic CRUD and RSpec tests.
+> **Note**: This branch (master) contains a skeleton with user login, logout authentication and sessions, perfect for creating a _new_ application or challenge. If you're looking for an example app built with this skeleton
 
 ### Purpose
 The Sinatra Skeleton:

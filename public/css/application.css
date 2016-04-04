@@ -1,0 +1,119 @@
+.container {
+  margin: 50px auto;
+  width: 800px;
+  padding: 0px 20px 20px 20px;
+  clear: both;
+}
+
+.container h1 {
+  font-size: 17pt;
+
+}
+
+nav {
+  width: 100%;
+  height: 40px;
+  font-weight: bold;
+}
+
+nav .brand, nav .brand a {
+  margin-left: 25px;
+  font-size: 18pt;
+  text-decoration: none;
+  color: #444;
+  width: 60%;
+  display: inline-block;
+}
+
+nav ul {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+}
+
+nav li {
+  margin-right: 25px;
+  display: inline;
+}
+
+nav li a {
+  color: gray;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+form label {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.errors {
+  color: red;
+}
+
+form.quirks {
+  display: inline-block;
+}
+
+.submit {
+  text-align: center;
+}
+
+.label {
+  font-weight: bold;
+  float: left;
+  text-align: right;
+  margin-right: 20px;
+  width: 200px;
+}
+
+/* Header */
+#page-header {
+  float: right;
+  margin: 0px 0px 40px 0px;
+  clear: both;
+}
+
+.register-section {
+  margin: 30px 50px 30px 0px;
+}
+
+.register-section a {
+  margin-right: 15px;
+}
+
+/* Login Page and Sign up Page*/
+#registration {
+margin: 0 auto;
+padding: 10px;
+width: 400px;
+border-radius: 3px;
+box-shadow: 0px 0px 5px gray;
+background: linear-gradient(to bottom right,#7E6E6D,#58636F);
+}
+
+input[type="submit"] {
+color: white;
+background-color: #454E4D;
+box-shadow: 0px 0px 2px #888888;
+font-size: 14px;
+}
+ 
+#registration input {
+  width: 230px;
+  display: block;
+  margin:  auto;
+  padding: 0px 0px 10px 0px;
+  margin-bottom: 10px;
+ }
+
+.signup-container {
+
+}

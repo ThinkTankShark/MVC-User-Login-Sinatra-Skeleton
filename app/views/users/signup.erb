@@ -1,0 +1,22 @@
+<div class="container">
+	<% if @errors %><%= @errors %><% end %>
+	<form action="/users" method="post" id="registration" autocomplete="off">
+		<% if @errors %><p class="errors"><%= @errors[:first_name][0] %></p><% end %>
+		<input type="text" name="first_name" id="first_name" placeholder="First Name:">
+
+		<% if @errors %><p class="errors"><%= @errors[:last_name][0] %></p><% end %>
+		<input type="text" name="last_name" id="last_name" placeholder="Last Name:">
+		
+		<% if @errors %><p class="errors"><%= @errors[:email][0] %></p><% end %>
+		<input type="text" name="email" id="email" placeholder="Email:" autocomplete="off">
+
+		<% if @errors %><p class="errors"><%= @errors[:password][0] %></p><% end %>
+		<input type="password" name="password" id="password" placeholder="Password" autocomplete="off">
+		
+		<input type="submit" value="Register">
+	</form>
+</div>
+
+
+
+

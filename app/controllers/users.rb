@@ -1,5 +1,4 @@
-
-#Check to make sure user logged in for any post method
+# Check to make sure user logged in for any post method
 # before "/users*" do
 # 	unless request.get?
 # 		unless current_user
@@ -10,7 +9,7 @@
 
 #Return a page for registration
 get '/users/new' do
-	erb :'user_signup'
+	erb :'users/signup'
 end
 
 #Create a new user
@@ -22,13 +21,14 @@ post '/users' do
 	if @user.save
 		redirect '/'
 	else
+		@errors = @user.errors.messages
 		redirect '/users/new'
 	end
 end
 
 #Return a page to login
 get '/login' do
-	erb :'user_login'
+	erb :'users/login'
 end
 
 #Return homepage after successfull logn
@@ -39,7 +39,7 @@ post '/login' do
 		session[:user_id] = @user.id
 		redirect '/'
 	else
-		erb :'user_login'
+		erb :'users/login'
 	end
 end
 

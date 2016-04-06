@@ -1,9 +1,23 @@
 <div class="container">
-	<form action="/login" method="post" id="registration" autocomplete="off">
-
+	<form action="/login" method="post" id="registration" name="myForm" onsubmit="return validateForm()" autocomplete="off">
+    <% if @errors %><p class="errors"><%= @errors[:email][0] %></p><% end %>
 		<input type="text" name="email" id="email" placeholder="Email:" autocomplete="off">
-
+    <% if @errors %><p class="errors">can't be blank</p><% end %>
 		<input type="password" name="password" id="password" placeholder="Password" autocomplete="off">
 		<input type="submit" value="Login">
 	</form>
 </div>
+
+<script type="text/javascript">
+  function validateForm() {
+    var emailInput = document.forms["myForm"]["email"].value;
+    var passwordInput = document.forms["myForm"]["password"].value;
+    if (emailInput == null || emailInput == "") {
+        alert("email must be filled out");
+        return false;
+    } else if (passwordInput == null || passwordInput == "") {
+      alert("password must be filled out");
+        return false;
+    }
+}
+</script>

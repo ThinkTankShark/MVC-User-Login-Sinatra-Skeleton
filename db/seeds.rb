@@ -8,5 +8,3 @@ users = 100.times.map do
                 :email      => Faker::Internet.email,
                 :password   => 'password' )
 end
-
-end

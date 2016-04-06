@@ -7,7 +7,6 @@
 
 .container h1 {
   font-size: 17pt;
-
 }
 
 nav {
@@ -91,21 +90,21 @@ form.quirks {
 
 /* Login Page and Sign up Page*/
 #registration {
-margin: 0 auto;
-padding: 10px;
-width: 400px;
-border-radius: 3px;
-box-shadow: 0px 0px 5px gray;
-background: linear-gradient(to bottom right,#7E6E6D,#58636F);
+  margin: 0 auto;
+  padding: 10px;
+  width: 400px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px gray;
+  background: linear-gradient(to bottom right,#7E6E6D,#58636F);
 }
 
 input[type="submit"] {
-color: white;
-background-color: #454E4D;
-box-shadow: 0px 0px 2px #888888;
-font-size: 14px;
+  color: white;
+  background-color: #454E4D;
+  box-shadow: 0px 0px 2px #888888;
+  font-size: 14px;
 }
- 
+
 #registration input {
   width: 230px;
   display: block;
@@ -114,6 +113,6 @@ font-size: 14px;
   margin-bottom: 10px;
  }
 
-.signup-container {
-
-}
+ .errors {
+  margin-left: 150px;
+ }

@@ -22,7 +22,7 @@ post '/users' do
 		redirect '/'
 	else
 		@errors = @user.errors.messages
-		redirect '/users/new'
+		erb :'users/signup'
 	end
 end
 

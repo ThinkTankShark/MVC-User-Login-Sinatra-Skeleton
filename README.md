@@ -1,5 +1,5 @@
 ### Purpose
-The Sinatra Skeleton with prebuilt Authentication + Styling
+The Sinatra skeleton with prebuilt authentication and custom CSS for styling:
 
 1. Provides a foundation for creating a new Sinatra application.
 2. Migration and model exists for User

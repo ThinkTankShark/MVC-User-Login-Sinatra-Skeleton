@@ -25,3 +25,20 @@ As needed, create models & migrations with the `rake` tasks:
 rake generate:migration  # Create an empty migration in db/migrate, e.g., rake generate:migration NAME=create_tasks
 rake generate:model      # Create an empty model in app/models, e.g., rake generate:model NAME=User
 ```
+
+## Screenshots: 
+
+#### Signup:
+![signup](app/images/2.png)
+
+#### Login:
+![login](app/images/3.png)
+
+#### Style:
+![homepage](app/images/1.png)
+
+
+
+
+
+
